@@ -1,0 +1,29 @@
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  margin-bottom: 5px;
+}
+.input {
+  display: block;
+  margin-top: 5px;
+}
+
+.button {
+  display: block;
+  margin-top: 5px;
+  align-self: start;
+  background: transparent;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background 250ms linear;
+}
+
+.button:active {
+  color: #ffffff;
+  background: #055c9d;
+}

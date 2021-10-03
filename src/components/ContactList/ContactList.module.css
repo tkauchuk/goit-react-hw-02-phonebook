@@ -1,0 +1,32 @@
+.list {
+  margin-top: 10px;
+  list-style: square;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.button {
+  display: block;
+  margin-top: 5px;
+  background: transparent;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background 250ms linear;
+}
+
+.button:active {
+  color: #ffffff;
+  background: #055c9d;
+}
+.name {
+  margin-right: 10px;
+}
+.number {
+  margin-right: 10px;
+}
